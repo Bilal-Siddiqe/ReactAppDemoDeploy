@@ -1,18 +1,11 @@
-import React from 'react';
-import Navbar from './components/Navbar'
+import React from 'react'
 
 export default function App() {
+  return (
+    <div>
 
-    const prods = ["Cap", "Shoes", "T-Shirt", "Pents", "Watch"];
+      <h1 className='text-center'> App is Running</h1>
 
-
-    return (
-        <div>
-          <h1 className='text-center'>I M App</h1>
-
-
-        </div>
-    )
+    </div>
+  )
 }
-
-
